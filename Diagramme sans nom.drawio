@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-03T10:04:55.358Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="MckiLpAamamYPBZTBxpt" version="24.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-04T11:00:23.173Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="rVKYjsFo1ucRo8al7blZ" version="24.3.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1173" dy="1860" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -138,13 +138,11 @@
         <mxCell id="C65WgQI8QG8N_RnLKigR-80" value="check if the file imageis&lt;div&gt;&amp;nbsp;an accepted image type and size&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="230" y="-277.5" width="150" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="C65WgQI8QG8N_RnLKigR-84" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="C65WgQI8QG8N_RnLKigR-82" target="C65WgQI8QG8N_RnLKigR-139">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="495" y="-35" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="C65WgQI8QG8N_RnLKigR-156" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="C65WgQI8QG8N_RnLKigR-82" target="C65WgQI8QG8N_RnLKigR-154">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="C65WgQI8QG8N_RnLKigR-82" value="Read Image file and extract model ID from the file name" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="255" y="-85" width="100" height="100" as="geometry" />
+          <mxGeometry x="90" y="-85" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="C65WgQI8QG8N_RnLKigR-83" value="Yes" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="260" y="-140" width="60" height="30" as="geometry" />
@@ -279,6 +277,12 @@
         </mxCell>
         <mxCell id="C65WgQI8QG8N_RnLKigR-150" value="Error and Skip the file and continue with the next one" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="90" y="-258.75" width="100" height="82.5" as="geometry" />
+        </mxCell>
+        <mxCell id="C65WgQI8QG8N_RnLKigR-157" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="C65WgQI8QG8N_RnLKigR-154" target="C65WgQI8QG8N_RnLKigR-139">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C65WgQI8QG8N_RnLKigR-154" value="Authentificate with API endpoint using provided token" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="297" y="-85" width="100" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

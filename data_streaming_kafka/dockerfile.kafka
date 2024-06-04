@@ -1,0 +1,17 @@
+# Use the official Confluent Kafka image as a base
+FROM confluentinc/cp-kafka:latest
+
+# Set the environment variables
+ENV KAFKA_BROKER_ID=0
+ENV KAFKA_ZOOKEEPER_CONNECT=zookeeper:2181
+ENV KAFKA_LISTENERS=PLAINTEXT://0.0.0.0:9092
+ENV KAFKA_ADVERTISED_LISTENERS=PLAINTEXT://kafka:9092
+ENV KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR=1
+ENV KAFKA_TRANSACTION_STATE_LOG_MIN_ISR=1
+ENV KAFKA_TRANSACTION_STATE_LOG_REPLICATION_FACTOR=1
+
+# Expose Kafka port
+EXPOSE 9092
+
+# Start Kafka server
+CMD ["sh", "-c", "Kafka-server-start /usr/local/etc/Kafka/server.properties"]

@@ -1,0 +1,5 @@
+Flask
+pymysql
+kafka-python
+requests
+docker
